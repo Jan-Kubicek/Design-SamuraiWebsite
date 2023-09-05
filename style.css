@@ -1,0 +1,189 @@
+::selection{
+    color:white;
+    background-color: purple;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(10, 10, 10);
+}
+#intro{
+    width: 100%;
+    height: 100%;
+    color:white;
+    font-size: 400%;
+    text-align: center;
+    transition: 2s;
+}
+#intro:hover{
+        color:#ff0789;
+}
+.navigationBar{
+    list-style-type: none;
+    background-color: rgba(30,30, 30,0.5);
+    box-shadow: 0 4px 40px rgba(0,0,0,0.1);
+    backdrop-filter: blur(9.7px);
+    -webkit-backdrop-filter: blur(9.7px);
+    opacity:0.7;
+    display:flex;
+    width: auto;
+}
+.site{
+    color:white;
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    padding-bottom: 10%;
+    padding-top:    10%;
+    padding-left:   5%;
+    margin-left: 10%;
+    transition:1s;
+}
+.site:hover{
+    box-shadow: 0px 12px 8px -12px white, 0px 16px 11px -16px #ff0789;
+    color:  #ff0789;
+}
+.li-site{
+    display: flex;
+    width: 100%;
+}
+main{
+    width:auto;
+    height: auto;
+}
+#background-picture{
+    background: url("samurai-website/samurai-sakura-fidzi.jpg") no-repeat center center fixed;
+}
+.clanek{
+    background: rgba(250,250,250, 0.34);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(10, 10, 10, 0.1);
+    backdrop-filter: blur(5.2px);
+    -webkit-backdrop-filter: blur(5.2px);
+    border: 1px solid rgba(250,250,250, 0.3);
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 2%;
+    margin-top:2%;
+    width: auto;
+    height: auto;
+}
+.text{
+    height: auto;
+    width: 40%;
+    display: inline-block;
+    margin-left:5%; 
+}
+.fotka{
+    width: 30%;
+    height: 40%;
+    display: inline-block;
+    margin-left: 22%;
+}
+.fotka img{
+    margin-left: 3%;
+    padding: 0%;
+    float:right;
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+}
+
+.fotka img:hover{
+    filter:drop-shadow(7px 7px 7px #ff0789);
+}
+
+#sm3{
+    width: 59%;
+    height: auto;
+}
+#sm2{
+    width: 70%;
+    height: auto;
+}
+#sm4{
+    width: 130%;
+    height: auto;
+}
+.nadpis{
+    transition: 2s;
+}
+.nadpis:hover{
+    color:#ff0789;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.text-clanku{
+   list-style-type: none;
+}
+.odstavec{
+    color: black;
+    margin-bottom: 3%;
+}
+.odstavec:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.odstavec::before{
+    content: "\2022";
+    color: purple;
+    display: inline-block;
+    margin-left: -1em;
+    width:1em;
+}
+footer{
+    width: auto;
+}
+.Autor{
+    margin-left:10%;
+    float:left;
+    color:white;
+    text-align: center;
+    width: auto;
+}
+.Autor ul{
+    list-style-type: none;
+}
+.Autor li{
+    margin-bottom: 15%;
+}
+#topBtn{
+    padding: 45px 10px 15px 10px;   
+    text-decoration: none;
+}
+.SocialNetworks{
+    float:right;
+    margin-right: 13%;  
+}
+.SocialNetworks ul li{
+    list-style-type: none;
+    display: inline-flex;
+}   
+.SocialNetworks li a{
+    color:white;
+    text-decoration: none;  
+}
+.logo{
+    display: inline-flex;
+    background-color: #ff0789;
+    float:left;
+    width: 45px;
+    height: 45px;
+}
+.li-logo:hover .text-logo{
+    display:inline-flex;
+    background-color: #ff0789;
+    font-weight: bold;  
+    padding:13px;
+    width: 150px;
+    height: 19px;
+}
+.text-logo{
+    text-align: center;
+    float:right;
+    display: none;
+    margin: 0;
+}
+#topBtn{
+    background-color: #ff0789;
+}
+
