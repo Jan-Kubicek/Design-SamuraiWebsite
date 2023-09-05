@@ -52,7 +52,7 @@ main{
     height: auto;
 }
 #background-picture{
-    background: url("samurai-website/samurai-sakura-fidzi.jpg") no-repeat center center fixed;
+    background: url("samurai-sakura-fidzi.jpg") no-repeat center center fixed;
 }
 .clanek{
     background: rgba(250,250,250, 0.34);
