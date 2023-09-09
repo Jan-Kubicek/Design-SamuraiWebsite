@@ -295,6 +295,12 @@ footer{
     
 }
 @media screen and (max-width:768px) {
+    .site{
+        padding-bottom: 2%;
+        padding-top: 2%;
+        padding-right: 65%;
+        margin: 0%;
+    }
     .navigationBar{
         display: block;
     }
@@ -358,9 +364,87 @@ footer{
         display: inline;
     }
     .SocialNetworks ul{
-        padding-left: 22%;
+        padding-left: 10%;
     }
 }
 @media screen and (max-width:600px) {
+    .site{
+        padding-bottom: 2%;
+        padding-top: 2%;
+        padding-right: 65%;
+        margin: 0%;
+    }
+    .li-site{
+        height: 5%;
+        padding-bottom: 1%;
+        padding-bottom: 1%;
+    }
+    .text{
+        display:inline-block;
+        width: 90%;
+        height: auto;
+        padding-right: 2%;
+    }
+    .fotka{
+        display: inline-block;
+        transform: translateY(-10%);
+        transform: translateX(65%);
+        margin-bottom: 10%;
+        margin-top:0%;
+    }
+}
+@media screen and (max-width:580px) {
+    .site{
+        padding-right: 60%;
+    }
+    .li-logo{
+        display: list-item;
+    }
+    .logo{
+        display: block;
+        background-color: #ff0789;
+        float:left;
+        width: 45px;
+        height: 45px;
+    }
+    .text-logo{
+        background-color: #ff0789;
+        font-weight: bold;  
+        padding:13px;
+        width: 150px;
+        height: 19px;
+        text-align: center;
+        float:right;
+        display: block;
+        margin: 0;
+    }
+}
+@media screen and (max-width:550px) {
+    .SocialNetworks ul{
+        padding-left: 27%;
+    }
     
+}
+@media screen and (max-width:500px) {
+    .site{
+        padding-right: 55%;
+    }
+
+}
+@media screen and (max-width:450px) {
+    .site{
+        padding-right: 40%;
+    }
+    .SocialNetworks ul{
+        padding-left: 23%;
+    }
+}
+@media screen  and (max-width:375px){
+    .Autor ul{
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    .SocialNetworks ul{
+        padding-left: 20%;
+    }
 }
