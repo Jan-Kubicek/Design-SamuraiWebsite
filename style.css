@@ -429,6 +429,9 @@ footer{
     .site{
         padding-right: 55%;
     }
+    .nadpis{
+        text-align: center;
+    }
 
 }
 @media screen and (max-width:450px) {
@@ -446,5 +449,34 @@ footer{
     }
     .SocialNetworks ul{
         padding-left: 20%;
+    }
+}
+@media screen and (max-width:320px){
+    .SocialNetworks ul{
+        padding-left: 15%;
+    }
+    
+}
+@media screen and (max-width:290px) {
+    .SocialNetworks ul{
+        padding-left: 10%;
+    }
+    .site{
+        padding-right: 30%;
+    }
+}
+@media screen and (max-width:273px) {
+    .site{
+        padding-right: 20%;
+    }
+}
+@media screen and (max-width:262px) {
+    .SocialNetworks ul {
+        padding-left: 5%;
+    }
+}
+@media screen and (max-width:250px) {
+    .SocialNetworks ul {
+        padding-left: 0%;
     }
 }
